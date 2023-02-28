@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "bytecode": "mkdir -p out && deno run --v8-flags=--print-bytecode",
+    "destructure": "deno task bytecode src/destructure.ts > out/destructure.txt",
+    "property": "deno task bytecode src/property.ts > out/property.txt",
+    "diff": "deno task destructure && deno task property && bash -c 'echo destructure:$(wc out/destructure.txt) && echo property:$(wc out/property.txt)'"
+  },
+  "fmt": {
+    "options": {
+      "semiColons": false
+    }
+  }
+}

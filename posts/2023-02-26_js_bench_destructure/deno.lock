@@ -1,0 +1,15 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "ts-pattern": "ts-pattern@4.1.4"
+    },
+    "packages": {
+      "ts-pattern@4.1.4": {
+        "integrity": "sha512-Mcw65oUd1w5ktKi5BRwrnz16Otwk9iv7P0dKgvbi+A1albCDgnixohSqNLuFwIp5dzxPmTPm0iDQ6p1ZJr9uGw==",
+        "dependencies": {}
+      }
+    }
+  }
+}
